@@ -4,7 +4,7 @@ from Models.Customer import Customer
 
 app = Flask(__name__)
 # connection string (host name, user id, password, database name)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://amulya:_____@localhost:5432/MyBank'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://amulya:_____@localhost:543_/MyBank'
 
 MyBankDb = SQLAlchemy(app)
 
